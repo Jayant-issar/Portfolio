@@ -4,7 +4,7 @@ import { BackgroundGradient } from "../components/ui/glowingCard";
 import { useNavigate } from "react-router-dom";
 
 
-export function SkillCard({source, skillName,aboutskill,className}) {
+export function SkillCard({source, skillName,aboutskill,className,butttonName}) {
   const navigate = useNavigate();
   return (
     <div className={className}>
@@ -22,7 +22,7 @@ export function SkillCard({source, skillName,aboutskill,className}) {
         onClick={()=>{
           navigate('/projects')
         }}>
-          <span> View Projects</span>
+          <span>{butttonName}</span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
             
           </span>
