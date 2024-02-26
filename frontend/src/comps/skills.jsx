@@ -32,11 +32,11 @@ export function SkillSec(){
                                     Frontend
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
-                                <SkillCard source={"src/assets/reactlogo.png"} skillName={"React js"} />
-                                <SkillCard source={"src/assets/typescript.png"} skillName={"TypeScript"} />
-                                <SkillCard source={"src/assets/js.png"} skillName={"Java Script"} />    
-                                <SkillCard source={"src/assets/tailwind-css-icon.png"} skillName={"Tailwind CSS"} />
-                                <SkillCard source={"src/assets/html5.png"} skillName={"HTML5"} />
+                                <SkillCard source={"./assets/reactlogo.png"} skillName={"React js"} />
+                                <SkillCard source={"./assets/typescript.png"} skillName={"TypeScript"} />
+                                <SkillCard source={"./assets/js.png"} skillName={"Java Script"} />    
+                                <SkillCard source={"./assets/tailwind-css-icon.png"} skillName={"Tailwind CSS"} />
+                                <SkillCard source={"./assets/html5.png"} skillName={"HTML5"} />
                             </div>
                         </div>
                         <div id="backendskills" className="mt-10" >
