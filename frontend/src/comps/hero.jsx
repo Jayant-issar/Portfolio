@@ -10,7 +10,8 @@ export function Hero(){
         <div id="heroSection" className=' flex justify-between  rounded-md mt-20'>
             <div id="jayantPhoto" className="w-96 m-4 mt-12 
             ml-60 shadow-emerald-500 rounded-md" >
-                <img src="./assets/jayant.jpg" className="rounded-md border-none w-64 h-96 " />
+                <img src="./assets/jayant.jpg"
+                 className="rounded-md border-none w-64 h-96 " />
                 <div className="h-4/5 w-2/3 ">
                     <TextGenerateEffect words={photCredits}/>
                 </div>
