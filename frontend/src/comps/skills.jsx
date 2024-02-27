@@ -59,7 +59,7 @@ export function SkillSec(){
                                     Programing Languages
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
-                            <SkillCard source={"src/assets/typescript.png"} skillName={"TypeScript"} butttonName={"View Projects"} />
+                            <SkillCard source={"./assets/typescript.png"} skillName={"TypeScript"} butttonName={"View Projects"} />
                                 <SkillCard source={"./assets/python.svg"} skillName={"Python"} butttonName={"View Projects"} />
                     
                                 <SkillCard source={"./assets/js.png"} skillName={"Java Script"} butttonName={"View Projects"} />
