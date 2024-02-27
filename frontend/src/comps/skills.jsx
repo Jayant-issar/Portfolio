@@ -32,11 +32,11 @@ export function SkillSec(){
                                     Frontend
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
-                                <SkillCard source={"src/assets/reactlogo.png"} skillName={"React js"} butttonName={"View Projects"} />
-                                <SkillCard source={"src/assets/typescript.png"} skillName={"TypeScript"} butttonName={"View Projects"}/>
-                                <SkillCard source={"src/assets/js.png"} butttonName={"View Projects"} skillName={"Java Script"} />    
-                                <SkillCard source={"src/assets/tailwind-css-icon.png"} skillName={"Tailwind CSS"} butttonName={"View Projects"}/>
-                                <SkillCard source={"src/assets/html5.png"} skillName={"HTML5"} butttonName={"View Projects"}/>
+                                <SkillCard source={"./assets/reactlogo.png"} skillName={"React js"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/typescript.png"} skillName={"TypeScript"} butttonName={"View Projects"}/>
+                                <SkillCard source={"./assets/js.png"} butttonName={"View Projects"} skillName={"Java Script"} />    
+                                <SkillCard source={"./assets/tailwind-css-icon.png"} skillName={"Tailwind CSS"} butttonName={"View Projects"}/>
+                                <SkillCard source={"./assets/html5.png"} skillName={"HTML5"} butttonName={"View Projects"}/>
                             </div>
                         </div>
                         <div id="backendskills" className="mt-10" >
@@ -47,9 +47,9 @@ export function SkillSec(){
                                     Backend
                             </h1>
                             <div id="backendSkillsCards" className="flex justify-evenly p-5">
-                                <SkillCard source={"src/assets/nodejs.svg"} skillName={"Node js"} className={"mr-4 "} butttonName={"View Projects"} />
-                                <SkillCard source={"src/assets/mongodb.svg"} skillName={"Mongo DB"} className={"mr-4"} butttonName={"View Projects"} />
-                                <SkillCard source={"src/assets/expressjs-icon.svg"} skillName={"Express js"} className={"mr-4"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/nodejs.svg"} skillName={"Node js"} className={"mr-4 "} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/mongodb.svg"} skillName={"Mongo DB"} className={"mr-4"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/expressjs-icon.svg"} skillName={"Express js"} className={"mr-4"} butttonName={"View Projects"} />
                             </div>
                         
                         </div>
@@ -60,11 +60,11 @@ export function SkillSec(){
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
                             <SkillCard source={"src/assets/typescript.png"} skillName={"TypeScript"} butttonName={"View Projects"} />
-                                <SkillCard source={"src/assets/python.svg"} skillName={"Python"} butttonName={"View Projects"} />
-                                
-                                <SkillCard source={"src/assets/js.png"} skillName={"Java Script"} butttonName={"View Projects"} />
-                            
-                                <SkillCard source={"src/assets/c.svg"} skillName={"C++"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/python.svg"} skillName={"Python"} butttonName={"View Projects"} />
+                    
+                                <SkillCard source={"./assets/js.png"} skillName={"Java Script"} butttonName={"View Projects"} />
+                
+                                <SkillCard source={"./assets/c.svg"} skillName={"C++"} butttonName={"View Projects"} />
                             </div>
                         </div>
                     </div>
@@ -86,10 +86,10 @@ export function SkillSec(){
                                 
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
-                                <SkillCard source={"src/assets/code-forces.svg"} skillName={"Code Forces"} 
+                                <SkillCard source={"./assets/code-forces.svg"} skillName={"Code Forces"} 
                                 aboutskill={"Rating-1000"} className={"mr-4 "} butttonName={"View Profile"} />
-                                <SkillCard source={"src/assets/leetcode.svg"} butttonName={"View Profile"} skillName={"Leet Code"} aboutskill={"No. of questions- 50"} className={"mr-4"} />
-                                <SkillCard source={"src/assets/hackerrank.svg"} skillName={"Hackerrank"}
+                                <SkillCard source={"./assets/leetcode.svg"} butttonName={"View Profile"} skillName={"Leet Code"} aboutskill={"No. of questions- 50"} className={"mr-4"} />
+                                <SkillCard source={"./assets/hackerrank.svg"} skillName={"Hackerrank"}
                                 aboutskill={"Python rating- 4 stars⭐"} butttonName={"View Profile"} className={"mr-4"} />
                             </div>
                         
