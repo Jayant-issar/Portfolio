@@ -50,10 +50,28 @@ export function SkillSec(){
                                 <SkillCard source={"./assets/nodejs.svg"} skillName={"Node js"} className={"mr-4 "} butttonName={"View Projects"} />
                                 <SkillCard source={"./assets/mongodb.svg"} skillName={"Mongo DB"} className={"mr-4"} butttonName={"View Projects"} />
                                 <SkillCard source={"./assets/expressjs-icon.svg"} skillName={"Express js"} className={"mr-4"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/prisma-2.svg"} skillName={"Prisma"} className={"mr-4"} butttonName={"View Projects"} />
                             </div>
                         
                         </div>
 
+                        
+                        <div id="devops" className="mt-10" >
+                            {/* backend wale mai margin aur flex ka jhol hai 
+                            jab kam se kam 4 skill ho jaye backend mai 
+                            margin hata k flex box laga dena sahi ho jayega */}
+                            <h1 className="font-bold text-5xl text-white ml-20">
+                                    Devops
+                            </h1>
+                            <div id="backendSkillsCards" className="flex justify-evenly p-5">
+                                <SkillCard source={"./assets/aws.svg"} skillName={"AWS"} className={"mr-4 "} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/cloudflare.svg"} skillName={"CloudFlare"} className={"mr-4"} butttonName={"View Projects"} />
+                                <SkillCard source={"./assets/hono.svg"} skillName={"Hono"} className={"mr-4"} butttonName={"View Projects"} />
+                            </div>
+                        
+                        </div>
+                            
+                      
                         <div id="languages" className="mt-10" >
                             <h1 className="font-bold text-5xl text-white ml-20">
                                     Programing Languages
@@ -86,8 +104,7 @@ export function SkillSec(){
                                 
                             </h1>
                             <div id="fontendSkillsCard" className="flex justify-evenly p-5">
-                                <SkillCard source={"./assets/code-forces.svg"} skillName={"Code Forces"} 
-                                aboutskill={"Rating-1000"} className={"mr-4 "} butttonName={"View Profile"} />
+                                
                                 <SkillCard source={"./assets/leetcode.svg"} butttonName={"View Profile"} skillName={"Leet Code"} aboutskill={"No. of questions- 50"} className={"mr-4"} />
                                 <SkillCard source={"./assets/hackerrank.svg"} skillName={"Hackerrank"}
                                 aboutskill={"Python rating- 4 stars⭐"} butttonName={"View Profile"} className={"mr-4"} />
